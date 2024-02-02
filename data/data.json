@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Caneta Deliniadora Preta",
+        "price": 42.49,
+        "rating": 4,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247279370/49d97d19916f519cc7d63312b1131b26-6tm10nbjez.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pomada de Sombrancelha",
+        "price": 19.99,
+        "rating": 5,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247271657/pomada-de-sobrancelha-brow-color-6zgk1e9ulv.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fixador de Sombrancelha",
+        "price": 2276.10,
+        "rating": 5,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247270116/fixador-de-sobrancelha-brow-ge-rygeyw2ui4.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Caneta Deliniadora Preta",
+        "price": 899.96,
+        "rating": 4,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247279370/49d97d19916f519cc7d63312b1131b26-6tm10nbjez.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pomada de Sombrancelha",
+        "price": 1871.10,
+        "rating": 4,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247271657/pomada-de-sobrancelha-brow-color-6zgk1e9ulv.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Caneta Deliniadora Preta",
+        "price": 1028.99,
+        "rating": 4,
+        "image": "https://cdn.awsli.com.br/400x400/375/375178/produto/247279370/49d97d19916f519cc7d63312b1131b26-6tm10nbjez.jpg"
+    }
+ 
+]

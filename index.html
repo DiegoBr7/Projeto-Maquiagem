@@ -4,12 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
     <title>Ana Mel make</title>
+
 </head>
 <header>
     <section class="hdr">
@@ -23,7 +36,7 @@
 
     <section class="hdrTwo">
         <div>
-            <img src="https://cdn.awsli.com.br/400x300/375/375178/logo/843605e62f.jpg" alt="Love Store">
+            <img src="./assets/images/IMG-20240106-WA0007.jpg" width="100px" height="500px" alt="Love Store">
         </div>
         <form action="" method="get">
 
@@ -61,15 +74,275 @@
 
 <body>
 
-    <section>
+    <section class="gdr">
+        <div class="make">
+            <a href="">Maquiagem</a>
+
+        </div>
         <div class="make">
             <a href="">Marca</a>
-            <ul>
-                <li>AAAA</li>
-            </ul>
+
         </div>
+        <div class="make">
+            <a href="">Rosto</a>
+
+        </div>
+        <div class="make">
+            <a href="">Boca</a>
+
+        </div>
+        <div class="make">
+            <a href="">Olhos</a>
+
+        </div>
+        <div class="make">
+            <a href="">Pinçéis</a>
+
+        </div>
+        <div class="make">
+            <a href="">Skincare</a>
+
+        </div>
+        <div class="make">
+            <a href="">Acessórios</a>
+
+        </div>
+        <div class="make">
+            <a href="">Promoção</a>
+
+        </div>
+        <div class="make">
+            <a href="">Lançamento</a>
+
+        </div>
+
+
     </section>
 
+
+    <main>
+
+        <div class="carousel-container">
+            <section class="carousel">
+                <div class="carousel-slides">
+                    <!-- Radio Buttons -->
+                    <input type="radio" name="slides-btn" id="radio1">
+                    <input type="radio" name="slides-btn" id="radio2">
+                    <input type="radio" name="slides-btn" id="radio3">
+                    <input type="radio" name="slides-btn" id="radio4">
+                    <!-- Slide Images -->
+                    <div class="slide-imgs first-img">
+                        <img src="./IMAGENS-LOGO/OIG (1).jpg" width="100%" height="500px" alt="Imagem provisória de cachorro">
+                    </div>
+                    <div class="slide-imgs">
+                        <img src="./IMAGENS-LOGO/OIG (10).jpg" width="100%" height="500px"
+                            alt="Imagem provisória cão e gato">
+                    </div>
+                    <div class="slide-imgs">
+                        <img src="./IMAGENS-LOGO/OIG (11).jpg" width="100%" height="500px"
+                            alt="Imagem provisória cachorro de coleira">
+                    </div>
+                    <div class="slide-imgs">
+                        <img src="./IMAGENS-LOGO/OIG (12).jpg" width="100%" height="500px"
+                            alt="Imagem provisória de gato">
+                    </div>
+                    <!-- Carousel Navigation -->
+                    <div class="carousel-navigation">
+                        <label for="radio1" class="carousel-btn btn1"></label>
+                        <label for="radio2" class="carousel-btn btn2"></label>
+                        <label for="radio3" class="carousel-btn btn3"></label>
+                        <label for="radio4" class="carousel-btn btn4"></label>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <div class="cardes">
+        <h2><b>PRODUTOS</b> EM DESTAQUE</h2>
+        <div class="slider js-slider"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+            integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+            integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
+
+    <div class="cardes">
+        <h2>OS QUERIDINHOS DA <b>LOVE!</b></h2>
+        <div class="slider js-slider"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+            integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+            integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
+
+    <div class="cardes">
+        <h2>OS MAIS VENDIDOS NA <b>LOVE!</b></h2>
+        <div class="slider js-slider"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+            integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+            integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
+
+    <div class="cardes">
+        <h2>OLHA O QUE CHEGOU DE <b>NOVIDADE!</b></h2>
+        <div class="slider js-slider"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+            integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+            integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
+    <div class="categorias">
+        <h2><b>CATEGORIAS</b></h2>
+        <div class="categoriasOne">
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+            <div class="divCat">
+                <a href="">
+                    <img src="https://cdn.awsli.com.br/1140x850/375/375178/banner/3-f9bq1oyw5m.jpg"
+                        alt="Banner base vitrine-mas-vendido">
+                    <p>COSMETICOS</p>
+
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="ftr1" >
+            
+            <ul>
+                <img src="./assets/images/IMG-20240106-WA0007.jpg" width="300px" height="250px" alt="Love Store">
+                <li>
+                    <p>A Love Store Makeup é uma loja online especializada em maquiagens nacionais e importadas.  Temos batom, paleta, base e mais. <br> <br> Tudo em até 10x Sem Juros!</p>
+                </li>
+             
+            </ul>
+
+
+      
+        </div>
+        <div class="ftr2" >
+
+            <ul>
+                <li><p><b>Estamos no whatsapp</b></p></li>
+                <li><a>(YY)7876585685756547</a></li>
+                <li><p>Fulano</p></li>
+                <hr>
+                <li><p>Envie uma mensagem</p></li>
+                <li><a href=""><p>contato@anamelmakeup.com.br</p></a></li>
+                <hr>
+                <li><p>Horário de atendimento</p></li>
+                <li><p>seg a sex das 09h às 18h</p></li>
+                <li><p>sab das 09h às 13h</p></li>
+            </ul>
+
+      
+
+      
+        </div>
+        <div class="ftr3" >
+
+            <ul>
+            
+                <li><p><b>Institucional</b></p></li>
+                <li><a href=""><p>Formas de Pagamento</p></a></li>
+                <li><a href=""><p>Prazos e Entregas</p></a></li>
+                <li><a href=""><p>Trocas e Devoluções</p></a></li>
+                <li><a href=""><p>Regras e Frete Grátis</p></a></li>
+                <li><a href=""><p>Politica e Privacidade</p></a></li>
+            </ul>
+
+           
+
+      
+        </div>
+        <div class="ftr4" >
+
+            <ul>
+                <li><a href="SITE FACEBOOK " target="_blank" aria-label="Siga nos no Facebook"><svg width="25px" height="25px" enable-background="new 0 0 96.124 96.123" version="1.1" viewBox="0 0 96.124 96.123" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m72.089 0.02l-12.465-0.02c-14.004 0-23.054 9.285-23.054 23.656v10.907h-12.533c-1.083 0-1.96 0.878-1.96 1.961v15.803c0 1.083 0.878 1.96 1.96 1.96h12.533v39.876c0 1.083 0.877 1.96 1.96 1.96h16.352c1.083 0 1.96-0.878 1.96-1.96v-39.876h14.654c1.083 0 1.96-0.877 1.96-1.96l6e-3 -15.803c0-0.52-0.207-1.018-0.574-1.386s-0.867-0.575-1.387-0.575h-14.659v-9.246c0-4.444 1.059-6.7 6.848-6.7l8.397-3e-3c1.082 0 1.959-0.878 1.959-1.96v-14.674c0-1.081-0.876-1.958-1.957-1.96z"></path></svg></a></li>
+                <li><a href=""><svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m192 353.75v-195.01l170.24 97.503zm40-126v56.996l49.758-28.498zm24 228.25c-65.145 0-122.32-4.258-158.81-7.83-46.194-4.521-82.997-39.75-89.5-85.668-5.105-36.055-7.694-71.887-7.694-106.5s2.589-70.447 7.694-106.5c6.503-45.917 43.306-81.145 89.5-85.667 36.49-3.572 93.661-7.83 158.81-7.83s122.32 4.258 158.81 7.83c46.194 4.521 82.997 39.75 89.5 85.668 5.105 36.055 7.694 71.887 7.694 106.5s-2.589 70.447-7.694 106.5c-6.503 45.917-43.306 81.146-89.5 85.667-36.49 3.572-93.661 7.83-158.81 7.83zm0-360c-63.53 0-119.31 4.154-154.91 7.641-27.766 2.718-49.885 23.881-53.791 51.465-4.844 34.204-7.3 68.149-7.3 100.89s2.456 66.69 7.3 100.89c3.906 27.585 26.025 48.748 53.791 51.466 35.603 3.486 91.379 7.64 154.91 7.64s119.31-4.154 154.91-7.641c27.766-2.718 49.885-23.881 53.791-51.465 4.844-34.204 7.3-68.149 7.3-100.89s-2.456-66.69-7.3-100.89c-3.906-27.585-26.025-48.748-53.791-51.466-35.603-3.486-91.379-7.64-154.91-7.64z"></path></svg></a></li>
+                <li><a href=""><img  width="25px" height="25px" src="./svg/icons8-instagram.svg" alt="" srcset=""></a></li>
+                <li><a href=""><img  width="25px" height="25px" src="./svg/icons8-tiktok.svg" alt="" srcset=""></a></li>
+          
+            </ul>
+
+           
+
+      
+        </div>
+
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
